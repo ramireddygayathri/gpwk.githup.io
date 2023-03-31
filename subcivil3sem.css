@@ -1,0 +1,463 @@
+*{margin:0;
+    padding:0;
+   }
+
+
+   ul li {
+    list-style: none;
+  }
+   .sub1{
+      display:flex;
+      box-sizing: border-box;
+     width:100%;
+    height: 120vh;;
+    }
+   .scse{width:260px;
+    height:300px;
+    position:sticky;
+    margin-top:500px;
+    margin:320px 60px;
+    border-radius:5px;
+    box-shadow: 1px 1px 5px 5px rgba(151, 151, 151, 0.516);}
+.scse a{text-decoration:none;
+        color:grey;
+        font-family:"Dubai Medium";
+        font-weight:300;
+      }
+.scse li{margin:20px;}
+.scse ul{margin:0px 24px;
+          padding-top:45px;}
+.scse i{color: #0d7377;}
+.right{
+    width:70%;
+    height:100%;
+    }
+.right a{
+  text-decoration:none;
+}
+.Isem{width:92%;
+  margin:60px 0px;
+height:50px;
+font-size:22px;
+box-shadow: 1px 1px 4px 4px rgba(33, 255, 255, 0.375);
+font-family:"Dubai Medium";
+padding:12px 0px 0px 40px;
+background:#0d747765;
+}
+.head,.de,.os,.mth,.ds,.dbms,.dbmsp{
+  background:rgba(238, 237, 237, 0.226);
+
+    width:94%;
+    border-radius:3px;
+    margin:-40px 0px 50px 0px;
+      height:40px;
+      font-size:21px;
+box-shadow: 1px 1px 1px 2px rgba(33, 255, 255, 0.253);
+
+      display:flex;
+    font-family:"Dubai Medium"; 
+    font-weight:300;
+    padding:5px 0px 0px 20px;
+     }
+.de,.mth,.os,.ds,.dbms,.dbmsp{ font-family:"Dubai Medium";
+      padding:10px;
+      height:60px;
+    font-weight:100;
+    font-size:19px;
+     margin:50px 0px;}
+.de{
+  height:100px;
+}
+.os{margin:-40px 0px;}
+.dbms{
+  height:60px;
+  margin:-40px 0px -40px 0px;
+}
+.dbmsp{
+  width:66%;
+  /* background:red; */
+  margin:-190px 10px 0px 380px;
+  padding-left:20px;
+}
+.sn{width:5%;
+  margin:0px 25px;}
+.subcod{margin:0px 30px;
+  width:15%;}
+.subname{  margin:0px 0px 0px -50px;
+  /* background:blue; */
+  width:20%;}
+.ref{width:30%;
+  /* background:red; */
+      margin:0px 0px 0px 90px;
+      padding:0px 0px 0px 0px;
+    }
+    .refcf a{
+        margin:0px 0px 0px -40px;
+    }
+    .subnamedbms{
+      /* background:red; */
+      margin:0px 0px 0px -100px;
+  }
+    .ref a,.refc a,.refcf a{
+      color:rgba(0, 0, 0, 0.589);
+    }
+    .ref a:hover,.refc a:hover,.refcf a:hover{
+      color:#08d6dd;
+      text-decoration:underline;
+    }
+    .dbmsp a{
+      text-decoration:none;
+    }
+.snh{width:5%;}
+.subcodh{width:15%;
+  padding-left:20px;
+  margin:0px 30px;}
+.ref{padding:15px 50px;}
+.refh{
+  width:40%;
+  margin:0px 0px 0px 220px;
+  /* background:red; */
+  padding:0px 0px;}
+.subnameh{width:25%;
+  /* background:blue; */
+  padding-left:20px;
+  margin:0px -50px;
+}
+.mth{margin:-40px 0px;}
+.subnamedbms{
+margin:0px 160px 0px -40px;}
+ .refcf{
+  /* background:red; */
+  margin:0px 0px 0px 30px;
+}
+
+  .scse{
+    margin-top: 50px;;
+  }
+
+  .scse{
+    margin-top: 50px;;
+  }
+
+.dropdown i{color: #0d7377;}
+  .dropdown a{
+    background:white;
+    font-family:"Dubai Medium";
+    font-weight:300;
+    color: grey;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-c {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-c a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-c a:hover {background-color: #ddd;
+                      width:60%;
+                      margin:10px;}
+  .dropdown:hover .dropdown-c {display: block;}
+
+
+
+
+
+
+
+
+  
+
+
+
+  #home {
+    margin-top:21px;
+  }
+  #departments {
+    margin-top: 13px;
+  }
+  #gallery {
+    margin-top:20px;
+  }
+  #contactus {
+    margin-top: 20px;
+  }
+  #about {
+    margin-top: 12px;
+  }
+  #academics {
+    margin-top: 13px;
+  }
+  
+  .nav {
+    width: 95%;
+    height: 10vh;
+    margin: 30px 0px 0px 30px;
+    box-shadow: 0px 8px 16px 0px rgba(83, 83, 83, 0.527);
+    background: #0d7377;
+  }
+  .nav li {
+    color: white;
+  }
+  .nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav a {
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px;
+    font-family: "Dubai Medium";
+  }
+  ul li {
+    list-style: none;
+  }
+  
+  .nav i {
+    font-size: 12px;
+  
+    color: white;
+  }
+  .pm i {
+    margin-top: 30px;
+  }
+  /* .pm a {
+    font-size: 40px;
+  } */
+  .about .abtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    /* margin: 20px; */
+    padding: 18px 16px;
+    background-color: inherit;
+    font-family: "Dubai Medium";
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0d7377;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #5fb8bb;
+  }
+  
+  .about:hover .dropdown-content {
+    display: block;
+  }
+  
+  .img1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.811), rgba(0, 0, 0, 0.864)),
+      url("google.jpg");
+    background-repeat: no-repeat;
+    width: 89%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    /* position:f;   */
+    /* margin-left:100px;
+       margin-right:100px; */
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Segoe UI;
+    background-position: center;
+    overflow: hidden;
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-size: cover;
+    /* overflow:scroll; */
+  }
+  
+  p.head1 {
+    margin-top: 85px;
+    margin-bottom: 20px;
+    color: white;
+    border-bottom: 0px solid black;
+  }
+  
+  div .image-map1:hover {
+    margin-top: 10px;
+    background-color: white;
+  }
+  .map {
+    margin-top: 140px;
+    margin-left: 10px;
+    z-index: 1;
+    /* color:black; */
+  }
+  #img-map:hover {
+    background-color: #2e6ad1;
+    height: 1000px;
+    margin-top: 10px;
+  }
+  
+  #img-map:hover {
+    background-color: #4876c7;
+  }
+  
+  .img-map:hover {
+    top: -15px;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+  .part2 {
+    font-size: 20px;
+    margin: 50px;
+    font-family: "Segoe UI";
+    margin-top: 130px;
+    margin-left: -6px;
+  }
+  .p2 {
+    padding-left: 20px;
+    font-size: 19px;
+    color: grey;
+    font-family: "Dubai";
+    border-left: 2px solid rgb(0, 123, 255);
+  }
+  .p3 {
+    font-size: 22px;
+    margin: 0px;
+    margin-top: 35px;
+  }
+  .bt a {
+    color: white;
+    text-decoration: none;
+  }
+  .bt {
+    width: 130px;
+    height: 50px;
+    margin-top: -15px;
+    background-color: blue;
+    color: azure;
+  
+    border: none;
+    font-size: 16px;
+    margin-left: -10px;
+  }
+  .bt:hover {
+    background-color: black;
+    color: white;
+  }
+  .in {
+    width: 400px;
+    height: 50px;
+    font-size: 17px;
+    border: none;
+    background-color: rgba(118, 113, 113, 0.356);
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+  }
+  .icons {
+    /* width: 50px;
+      height: 50px;
+      background-color:#0059b3; */
+    color: white;
+    display: flex;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: -20px;
+  }
+  .icons a:hover {
+    color: white;
+    /* color: #0059b3; */
+  }
+  .pin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: calibri;
+  }
+  .email {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+  }
+  .lin {
+    margin-right: 15px;
+    color: azure;
+    /* background-color: rgb(43, 43, 197); */
+    /* height: 2px; */
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  /* .submit{
+      font-size:18px;
+    } */
+  #linkedin:hover {
+    background-color: #2e6ad1;
+    height: 38px;
+    margin-top: 10px;
+  }
+  #mail:hover {
+    background-color: #b62020;
+    height: 35px;
+    margin-top: 10px;
+  }
+  #instagram:hover {
+    background-color: #e62d99;
+    height: 38px;
+    margin-top: 10px;
+  }
+  #facebook:hover {
+    background-color: #4876c7;
+    height: 37px;
+    margin-top: 10px;
+  }
+  #twitter:hover {
+    background-color: #356dd0;
+    height: 37px;
+    margin-top: 10px;
+  }
+  .search-container {
+    margin-top: 0px;
+  }
+  .image-map1{
+    margin-bottom:30px;
+  }
+  .fom a{
+    /* width:100px;
+    height:3vh; */
+     color:white;
+     font-size:17px;
+     /* background:red; */
+     margin:10px 0px 0px 10px;
+     padding-bottom:40px;
+     text-decoration:none;
+   }
+   .fom a:hover{
+        text-decoration:underline;
+        color:aqua;
+   }
+  

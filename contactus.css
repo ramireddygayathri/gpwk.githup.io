@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b1c1e;
+    text-align: center;
+}
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 59px;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+p{
+    color: #d2d2d2;
+
+}
+p,input,textarea,label{
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.container{
+    max-width:1320px;
+    margin: 0 auto;
+    padding: 5%;
+
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0px;
+}
+input,textarea,label{
+    display: block;
+    margin: 0 auto;
+    width:100%;
+    color: #828282;
+}
+input,textarea{
+    border:0;
+    background-color: transparent;
+    border-bottom: 2px solid #828282;
+}
+input[type=submit]{
+    background-color: #545557;
+    font-size: 18px;
+    padding: 15px  0;
+    color: white;
+    border-bottom: none;
+    margin-top: 30px ;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #fff;
+    color: #1b1c1e;
+}
+input,textarea{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+
+}input:focus,textarea:focus{
+    outline: 1px solid #828282;
+}
+a{
+    color: #828282;
+    font-style: italic;
+}
+a:hover{
+    color:#fff;
+    
+}
